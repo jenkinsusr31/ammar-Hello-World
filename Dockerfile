@@ -1,4 +1,4 @@
 # Pull base image 
 From tomcat:8
 
-COPY target/*.war /usr/local/tocat/webapps
+COPY /var/lib/jenkins/workspace/deploy-docker-app/webapp/target/*.war /usr/local/tocat/webapps
